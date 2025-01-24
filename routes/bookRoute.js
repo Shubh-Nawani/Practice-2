@@ -8,6 +8,7 @@ const {createBooks, updateBooks, deleteBooks, getBooks} = require('../controller
 router.post("/create", createBooks);
 router.get("/get", getBooks);
 router.put("/update/:id", updateBooks);
+router.delete("/delete/:id", deleteBooks);
 
 // Other user-related routes can be added here
 
